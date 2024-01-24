@@ -1,35 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Outlet } from 'react-router-dom';
 
+import Header from './components/Header';
+import Footer from './components/Footer';
+
+import './App.css';
+import './index.css';
+
+// This function is a functional component that helps us split the UI into distinct parts.
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className='page-container'>
+      <Header />
+      <div className='content'><Outlet /></div>
+      <Footer />
+    </div>
+  );
 }
 
 export default App
+
+// WHEN I load the portfolio
+// THEN I am presented with a page containing a header, a section for content, and a footer
