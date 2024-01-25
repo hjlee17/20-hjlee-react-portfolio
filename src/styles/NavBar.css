@@ -1,0 +1,44 @@
+nav {
+  background-color: white;
+  /* remove bg-color  */
+  display: flex;
+  align-items: flex-end;
+  margin: 0px;
+  padding: 10px 0 0 0;
+  width: 100%;;
+  
+}
+
+.nav-section {
+  display: flex;
+
+  background-color: var(--turq3);
+  border-radius: 10px 10px 0 0;
+  margin: 0 10px;
+  height: 50px;
+
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+
+  color: black;
+  text-decoration: none;
+}
+
+.nav-section.active {
+  display: flex;
+
+  background-color: lightskyblue;
+  border-radius: 10px 10px 0 0;
+  margin: 0 20px;
+  height: 50px;
+
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+}
+
+
+
