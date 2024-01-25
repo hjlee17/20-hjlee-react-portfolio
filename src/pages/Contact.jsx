@@ -50,7 +50,7 @@ export default function Contact() {
     } else if (!message) {
       setStatusMessage('Please write a message.');
     } else if (!isEmailValid) {
-      setStatusMessage('Email not valid.');
+      setStatusMessage('Please provide an email.');
     } else {
       setStatusMessage('Info received!');
 
@@ -62,7 +62,7 @@ export default function Contact() {
   };
   
   return (
-    <div>
+    <div className='contact'>
 
       <h1>Contact</h1>
 
