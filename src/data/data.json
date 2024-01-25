@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Timed BTS Quiz",
+        "thumbnail": "src/assets/portfolio-thumbnails/bts-timed-quiz.png",
+        "link": "https://hjlee17.github.io/04.1-timed-bts-quiz/",
+        "github": "https://github.com/hjlee17/04.1-timed-bts-quiz"
+    },
+    {
+        "name": "Five Day Weather Dashboard",
+        "thumbnail": "src/assets/portfolio-thumbnails/five-day-weather-dashboard.png",
+        "link": "https://hjlee17.github.io/06-five-day-weather-dashboard/",
+        "github": "https://github.com/hjlee17/06-five-day-weather-dashboard"
+    },
+    {
+        "name": "Itinerary Planner",
+        "thumbnail": "src/assets/portfolio-thumbnails/itinerary-planner.png",
+        "link": "https://johnpaulzigterman.github.io/itinerary-planner/",
+        "github": "https://github.com/JohnPaulZigterman/itinerary-planner.git/"
+    },
+    {
+        "name": "Express.js Note-Taker And Task Organizer Application",
+        "thumbnail": "src/assets/portfolio-thumbnails/note-taker.png",
+        "link": "https://intense-citadel-43123-3a531499351d.herokuapp.com/",
+        "github": "https://github.com/hjlee17/11-express.js-note-taker-and-task-organizer-application.git/",        
+        "status": "offline"
+    },
+    {
+        "name": "Workout Habit Tracker",
+        "thumbnail": "src/assets/portfolio-thumbnails/workout-habit-tracker.png",
+        "link": "https://dry-cliffs-36646-632c1ada6b75.herokuapp.com/",
+        "github": "https://github.com/hjlee17/workout-habit-tracker.git",
+        "status": "offline"
+    },
+    {
+        "name": "Itinerate: A Social Trip-Planning Tool",
+        "thumbnail": "src/assets/portfolio-thumbnails/placeholder.png",
+        "link": "https://github.com/JohnPaulZigterman/itinerary-site.git",
+        "github": "https://github.com/JohnPaulZigterman/itinerary-site.git"
+    }
+]
