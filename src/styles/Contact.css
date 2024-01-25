@@ -1,0 +1,59 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 500px; 
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+  
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%; /* all input and textarea elements take the full width of the form */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; /* padding does not affect the overall width */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+button:hover {
+  background-color: lightsteelblue;
+  color: black;
+}
+
+.error-message {
+  padding: 0 0 10px 0;
+  color: red;
+  font-size: .75em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.success-message {
+  color: green;
+}
