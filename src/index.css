@@ -1,4 +1,5 @@
 :root {
+  /* colors/fonts not finalized */
   --turq: rgb(100, 216, 177);
   --turq7: rgba(100, 216, 177, 0.7);
   --turq5: rgba(100, 216, 177, 0.5);
@@ -11,8 +12,8 @@
   --purp1: rgba(131, 65, 216, 0.1);
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-
 }
+
 
 html, body {
   display: flex;
@@ -21,3 +22,22 @@ html, body {
   padding: 0;
   background-color: lightskyblue;
 }
+
+main {
+  height: 80vh; 
+  background-color: lightskyblue;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
+}
+
+#root {
+  min-width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
