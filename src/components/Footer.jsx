@@ -1,8 +1,8 @@
 import '../styles/Footer.css';
 
-import github from '../assets/github-logo.png';
-import linkedin from '../assets/linked-in-logo.png';
-import instagram from '../assets/instagram-logo.png';
+import github from '../assets/header-footer/github-logo.png';
+import linkedin from '../assets/header-footer/linked-in-logo.png';
+import instagram from '../assets/header-footer/instagram-logo.png';
 
 function Footer() {
   return (

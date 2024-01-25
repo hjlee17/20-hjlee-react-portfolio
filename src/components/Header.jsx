@@ -1,6 +1,6 @@
 import '../styles/Header.css';
-import profilePic from '../assets/profpic.png';
-import name from '../assets/name.png';
+import profilePic from '../assets/header-footer/profpic.png';
+import name from '../assets/header-footer/name.png';
 import NavBar from './NavBar';
 
 function Header() {
